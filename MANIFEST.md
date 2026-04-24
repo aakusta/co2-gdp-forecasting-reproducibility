@@ -26,6 +26,9 @@
 | figure3_gdp_mtgru_error_metrics.png | public_outputs | Public | Package file | Yes |  |
 | table5_co2_model_performance.csv | public_outputs | Public | Package file | Yes |  |
 | table6_gdp_model_performance.csv | public_outputs | Public | Package file | Yes |  |
+| table7_permutation_feature_importance.csv | public_outputs | Public | Package file | Yes |  |
 | reproducibility_notes.md | . | Public | Package file | No |  |
 | restricted_data_notice.md | . | Public | Package file | No |  |
 | variable_dictionary.csv | . | Public | Package file | Yes |  |
+| repository_final_check_report.md | . | Public | Package file | No |  |
+| public_outputs_audit.md | . | Public | Package file | No |  |

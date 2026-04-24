@@ -10,7 +10,7 @@
 | public_outputs/appendix_table_a2_multistep_no_imputation.csv | keep_public | Contains aggregate multi-step and no-imputation diagnostics only; no country-year panel records. | Kept public. |
 | public_outputs/appendix_table_a3_classical_benchmark_diagnostics.csv | keep_public | Contains aggregate diagnostic schema/header for classical benchmark appendix output; no row-level restricted panel data. | Kept public. |
 | public_outputs/appendix_table_a4_hyperparameter_sensitivity.csv | keep_public | Contains aggregate hyperparameter sensitivity summary values only. | Kept public. |
-| public_outputs/table7_permutation_feature_importance.csv | keep_public | Contains aggregate manuscript-level PFI values only; no row-level restricted data. | Created and kept public. |
+| public_outputs/table7_permutation_feature_importance.csv | keep_public | Contains aggregate manuscript-level PFI values only; no row-level restricted data. | Kept public. |
 | public_outputs/figure1_missing_values_heatmap.png | keep_public | Figure output image; no extractable row-level panel table embedded in repository file format. | Kept public. |
 | public_outputs/figure2_co2_mtgru_error_metrics.png | keep_public | Figure output image with aggregate metric visualization. | Kept public. |
 | public_outputs/figure3_gdp_mtgru_error_metrics.png | keep_public | Figure output image with aggregate metric visualization. | Kept public. |
