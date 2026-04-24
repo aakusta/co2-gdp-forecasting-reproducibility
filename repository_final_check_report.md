@@ -55,3 +55,9 @@
 
 ## 9. Unresolved issues requiring manual review
 - None identified from this targeted pass.
+
+## 10. Final pre-submission cleanup (latest pass)
+- README live update verified.
+- checksums regenerated excluding `.git`, `checksums.txt`, `__pycache__`, `.venv`, and `.DS_Store`.
+- `MANIFEST.md` and `data_sources.md` markdown table formatting verified/fixed (pipe-table format confirmed).
+- `public_outputs/table5_co2_model_performance.csv` and `public_outputs/table6_gdp_model_performance.csv` public-output safety rechecked.
