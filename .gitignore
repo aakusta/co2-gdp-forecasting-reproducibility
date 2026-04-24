@@ -1,0 +1,16 @@
+# Keep restricted/internal materials out of the public repository.
+data_internal_not_public/
+reviewer_restricted_package/
+restricted_*.csv
+restricted_*.xlsx
+analysis_panel_*.csv
+analysis_panel_*.xlsx
+*_imputed_m*.csv
+*_imputed_m*.xlsx
+*.docx
+
+# Local/editor artifacts.
+.DS_Store
+__pycache__/
+*.pyc
+.venv/

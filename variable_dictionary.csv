@@ -1,0 +1,12 @@
+variable_name,role,definition,unit,source,public_or_restricted,imputed,notes
+co2_emissions,target,CO2 emissions outcome used in forecasting,metric tons / country-year measure,WDI / World Bank,public,yes,Target used in emissions forecasting.
+gdp_growth,target,Annual GDP growth outcome,year-over-year percent,WDI / World Bank,public,yes,Target used in economic growth forecasting.
+energy_use_pc,predictor,Energy use per capita,kg oil equivalent per capita or source unit,WDI / World Bank,public,yes,Macroeconomic/energy predictor.
+renewable_share,predictor,Renewable energy share,percent,WDI / World Bank,public,yes,Energy composition predictor.
+trade_gdp_lagged_1,predictor,Trade openness lagged one year,percent of GDP,WDI / World Bank,public,yes,Lagged macroeconomic predictor.
+fdi_gdp_lagged_1,predictor,Foreign direct investment intensity lagged one year,percent of GDP,WDI / World Bank,public,yes,Lagged macroeconomic predictor.
+inflation_lagged_1,predictor,Inflation lagged one year,annual percent,WDI / World Bank,public,yes,Lagged macroeconomic predictor.
+unemployment_lagged_1,predictor,Unemployment lagged one year,percent,WDI / World Bank,public,yes,Lagged macroeconomic predictor.
+ETS_policy_dummy,policy predictor,ETS presence indicator: 1 if country operates an ETS; 0 no ETS,binary,ICAP-derived / policy sources,restricted,no,"Captures ETS presence, not carbon-tax implementation."
+stage_implemented_dummy,policy predictor,1 if ETS or carbon tax is in force in year t; 0 otherwise,binary,ICAP-derived / policy sources,restricted,no,Implementation-stage indicator for broader carbon-pricing exposure.
+stage_underdev_dummy,policy predictor,1 if carbon-pricing instrument is under development or consideration; 0 otherwise,binary,ICAP-derived / policy sources,restricted,no,Policy-stage indicator for under-development/consideration status.
