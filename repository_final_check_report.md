@@ -61,3 +61,12 @@
 - checksums regenerated excluding `.git`, `checksums.txt`, `__pycache__`, `.venv`, and `.DS_Store`.
 - `MANIFEST.md` and `data_sources.md` markdown table formatting verified/fixed (pipe-table format confirmed).
 - `public_outputs/table5_co2_model_performance.csv` and `public_outputs/table6_gdp_model_performance.csv` public-output safety rechecked.
+
+## 11. Final formatting and safety pass
+- README rendered with proper Markdown section separation, lists, and heading structure.
+- Markdown tables verified/fixed in `output_mapping.md`, `public_outputs_audit.md`, `data_sources.md`, and `MANIFEST.md` (pipe-table format with one row per line).
+- `variable_dictionary.csv` parsed successfully as CSV after LF normalization and row/column validation.
+- `code/config_public_reproducibility.yaml` parsed successfully as YAML after multi-line normalization.
+- `checksums.txt` regenerated with one file per line and excludes `.git`, `checksums.txt`, `__pycache__`, `.venv`, and `.DS_Store`.
+- `public_outputs/table5_co2_model_performance.csv`, `public_outputs/table6_gdp_model_performance.csv`, `public_outputs/appendix_classical_benchmark_full.csv`, and `public_outputs/appendix_hyperparameter_grid_full.csv` were rechecked for restricted row-level leakage.
+- No restricted row-level data found in checked public outputs; files remain public.
