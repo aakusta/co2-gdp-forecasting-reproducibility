@@ -1,4 +1,4 @@
-# Reproducibility Package for “Forecasting CO2 Emissions and Economic Growth with Multitask Neural Networks and Expanding-Window Validation”
+# Reproducibility Package for "Forecasting CO2 Emissions and Economic Growth with Multitask Neural Networks and Expanding-Window Validation"
 
 ## Overview
 This repository contains public data components, code, variable definitions, and reproducibility documentation for the manuscript.
@@ -22,13 +22,15 @@ The analysis uses World Development Indicators / World Bank macroeconomic and en
 ## Reproducibility modes
 Public reproducibility mode reproduces public-source preprocessing and documents the pipeline. Internal/reviewer mode reproduces full results using restricted ICAP-derived files.
 
+The public repository is intended to document the public-source preprocessing workflow and provide aggregate manuscript outputs where redistribution is appropriate. Full reconstruction of the merged analysis panel, imputed panels, and policy-variable results requires restricted ICAP-derived materials supplied separately for confidential peer review.
+
 ## How to run
 1. Install requirements from `code/requirements.txt` where applicable.
 2. Use `code/config_public_reproducibility.yaml` for public-source preprocessing documentation.
 3. Use the internal/reviewer configuration only if restricted ICAP-derived data are available under appropriate access terms.
 
 ## Citation / manuscript
-Manuscript: “Forecasting CO2 Emissions and Economic Growth with Multitask Neural Networks and Expanding-Window Validation”.
+Manuscript: "Forecasting CO2 Emissions and Economic Growth with Multitask Neural Networks and Expanding-Window Validation".
 
 ## Contact / notes
 This package distinguishes public reproducibility from confidential full-review reproduction because some source materials are subject to third-party access restrictions.

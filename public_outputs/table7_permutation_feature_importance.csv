@@ -1,0 +1,10 @@
+feature,pfi_co2_emissions,pfi_gdp_growth
+energy_use_pc,45.8,5.1
+renewable_share,31.2,8.3
+trade_gdp_lagged_1,15.5,25.7
+fdi_gdp_lagged_1,12.1,21.9
+inflation_lagged_1,9.8,35.2
+unemployment_lagged_1,7.3,18.4
+ETS_policy_dummy,22.4,2.5
+stage_underdev_dummy,5.2,1.8
+stage_implemented_dummy,18.9,2.1

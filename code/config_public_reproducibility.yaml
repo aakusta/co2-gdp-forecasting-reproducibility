@@ -2,10 +2,10 @@
 # This mode supports public-source preprocessing and documentation only.
 # Full headline reproduction requires restricted ICAP-derived inputs that are not publicly redistributed.
 paths:
-  public_data_dir: ../github_public_package/public_data
-  public_outputs_dir: ../github_public_package/public_outputs
-  wdi_macro_energy_raw: ../github_public_package/public_data/wdi_macro_energy_raw_1990_2023.xlsx
-  wdi_macro_energy_metadata: ../github_public_package/public_data/wdi_macro_energy_metadata_1990_2023.xlsx
+  public_data_dir: ../public_data
+  public_outputs_dir: ../public_outputs
+  wdi_macro_energy_raw: ../public_data/wdi_macro_energy_raw_1990_2023.xlsx
+  wdi_macro_energy_metadata: ../public_data/wdi_macro_energy_metadata_1990_2023.xlsx
 restricted_inputs:
   icap_policy_status: not_publicly_redistributed_obtain_from_icap
   analysis_panels_with_policy_variables: not_publicly_redistributed_confidential_review_only
