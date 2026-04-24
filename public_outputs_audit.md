@@ -4,8 +4,8 @@
 |---|---|---|---|
 | public_outputs/appendix_classical_benchmark_full.csv | keep_public | Contains aggregate benchmark diagnostics by model/target/fold year and reliability flags; no country-year rows or raw/imputed panel values. | Kept public. |
 | public_outputs/appendix_hyperparameter_grid_full.csv | keep_public | Contains aggregate hyperparameter sensitivity metrics; no country-year panel rows or ICAP status rows. | Kept public. |
-| public_outputs/table5_co2_model_performance.csv | keep_public | Contains aggregate model performance metrics by model/fold/imputation run; no country-year raw or imputed values. | Kept public. |
-| public_outputs/table6_gdp_model_performance.csv | keep_public | Contains aggregate model performance metrics by model/fold/imputation run; no country-year raw or imputed values. | Kept public. |
+| public_outputs/table5_co2_model_performance.csv | keep_public | Contains aggregate model performance metrics; no country-year raw or imputed values. | Kept public. |
+| public_outputs/table6_gdp_model_performance.csv | keep_public | Contains aggregate model performance metrics; no country-year raw or imputed values. | Kept public. |
 | public_outputs/appendix_table_a1_warm_start_from_scratch.csv | keep_public | Contains aggregate warm-start versus from-scratch RMSE comparisons only. | Kept public. |
 | public_outputs/appendix_table_a2_multistep_no_imputation.csv | keep_public | Contains aggregate multi-step and no-imputation diagnostics only; no country-year panel records. | Kept public. |
 | public_outputs/appendix_table_a3_classical_benchmark_diagnostics.csv | keep_public | Contains aggregate diagnostic schema/header for classical benchmark appendix output; no row-level restricted panel data. | Kept public. |

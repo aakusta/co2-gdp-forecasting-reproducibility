@@ -1,31 +1,41 @@
 # Reproducibility Notes
 
 ## 1. Data construction overview
-The analysis combines public macroeconomic and energy indicators with restricted policy-status information.
+
+The analysis combines public WDI / World Bank macroeconomic and energy data with restricted ICAP-derived carbon-pricing and ETS policy indicators.
 
 ## 2. Public-source preprocessing
-Public mode documents and preprocesses WDI/World Bank-derived inputs where redistribution is permitted.
+
+The public repository documents public-source preprocessing and provides WDI / World Bank-derived data components where redistribution is permitted by the source terms.
 
 ## 3. Restricted-source policy variables
-ICAP-derived policy variables are not redistributed publicly. These variables enter the full analysis through the restricted analysis panel.
+
+Full reconstruction of policy-variable results requires ICAP-derived materials. These files are not publicly redistributed because they contain third-party source material and derived values subject to access and redistribution restrictions.
 
 ## 4. Multiple imputation
-The full analysis uses multiple imputation on the merged analysis panel. Imputed panels containing ICAP-derived values are restricted.
+
+The manuscript uses multiple imputation by chained equations. Public documentation describes the imputation setup; full reconstruction of imputed panels requires restricted inputs.
 
 ## 5. Expanding-window validation
-Forecast evaluation follows the manuscript's expanding-window validation protocol.
+
+Model performance is evaluated under a 2005-2023 expanding-window protocol. Aggregate outputs are provided where redistribution is appropriate.
 
 ## 6. Model training
-Full model training requires restricted policy variables and is available only in internal/reviewer reproduction mode.
+
+The public package documents the modelling workflow. Full model reproduction involving policy variables requires restricted ICAP-derived inputs.
 
 ## 7. Benchmark models
-Benchmark outputs are provided where available as aggregate manuscript outputs.
+
+Aggregate benchmark outputs are provided for the manuscript tables and appendix diagnostics.
 
 ## 8. Classical benchmark diagnostics
-Classical ARIMA/ARIMAX/VAR/DFM/UCM diagnostics are documented in Appendix Table A3 and the full diagnostic CSV.
+
+Classical ARIMA/ARIMAX/VAR/DFM/UCM diagnostics are provided as aggregate appendix evidence. They are not used for headline ranking because the pre-specified reliability threshold was not met.
 
 ## 9. Known limitations of public reproduction
-The public package does not fully reproduce restricted policy-variable results because ICAP-derived materials are not publicly redistributed.
+
+The public repository does not fully reproduce merged analysis panels, imputed panels, or policy-variable results because restricted ICAP-derived inputs are not publicly redistributed.
 
 ## 10. Full reviewer reproduction
-Full reviewer reproduction uses the confidential restricted package supplied for peer-review purposes.
+
+Restricted ICAP-derived files and full replication materials were made available to the editor and reviewers for confidential peer-review purposes.
