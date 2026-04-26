@@ -6,7 +6,7 @@ The analysis combines public WDI / World Bank macroeconomic and energy data with
 
 ## 2. Public-source preprocessing
 
-The public repository documents public-source preprocessing and provides WDI / World Bank-derived data components where redistribution is permitted by the source terms.
+The public repository provides public-source preprocessing entry points, configuration files, variable definitions, aggregate manuscript outputs, output mapping, checksums, and reproducibility documentation where redistribution is permitted by source terms.
 
 ## 3. Restricted-source policy variables
 
@@ -22,7 +22,7 @@ Model performance is evaluated under a 2005-2023 expanding-window protocol. Aggr
 
 ## 6. Model training
 
-The public package documents the modelling workflow. Full model reproduction involving policy variables requires restricted ICAP-derived inputs.
+The public package does not include the full restricted-input model-training pipeline. Full model reproduction, including policy-variable construction and headline model estimation, requires restricted ICAP-derived inputs.
 
 ## 7. Benchmark models
 

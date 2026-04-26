@@ -28,7 +28,7 @@ code/config_public_reproducibility.yaml uses repository-relative paths to public
 
 ## 6. README status
 
-README.md is framed as a Data Availability and Reproducibility Package and clearly distinguishes public reproducibility from confidential full-review reproduction.
+README.md is framed as a Data Availability and Reproducibility Package and clearly distinguishes public-source preprocessing entry points and configuration files from confidential full-review reproduction materials.
 
 ## 7. Restricted data leakage findings
 
@@ -61,3 +61,7 @@ None identified from this targeted pass.
 - Public restricted-data leakage: no.
 - Remaining public-package critical issues: 0.
 - Remaining public-package major issues: 0.
+
+## 12. Public-code scope clarification
+
+The public repository does not provide the full restricted-input model-training pipeline. It provides public-source preprocessing entry points, configuration files, variable definitions, aggregate manuscript outputs, output mapping, checksums, and reproducibility documentation. Full model reproduction, including policy-variable construction and headline model estimation, requires restricted ICAP-derived materials supplied separately for confidential peer review.

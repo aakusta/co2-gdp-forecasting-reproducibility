@@ -2,14 +2,14 @@
 
 ## Overview
 
-This repository provides the public data components, code, variable definitions, aggregate manuscript outputs, and reproducibility documentation associated with the manuscript.
+This repository provides public data components, public-source preprocessing entry points, configuration files, variable definitions, aggregate manuscript outputs, output mapping, checksums, and reproducibility documentation associated with the manuscript.
 
-It is designed to support public reproducibility where redistribution is permitted, while clearly distinguishing restricted ICAP-derived materials that cannot be publicly shared.
+It is designed to support public reproducibility where redistribution is permitted, while clearly distinguishing restricted ICAP-derived materials that cannot be publicly shared. Full model reproduction, including policy-variable construction and headline model estimation, requires restricted ICAP-derived materials supplied separately for confidential peer review.
 
 ## What is included
 
 - Public WDI/World Bank-derived data components where redistribution is permitted by the source terms.
-- Code and configuration notes for public-source preprocessing.
+- Public-source preprocessing entry points and configuration files; these do not constitute the full restricted-input model-training pipeline.
 - Variable dictionary and source notes.
 - Aggregate manuscript outputs where redistribution is appropriate.
 - Output mapping and reproducibility notes.

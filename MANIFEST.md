@@ -11,8 +11,8 @@
 | public_outputs_audit.md | root | Public | Documents public-output safety audit | Yes | Confirms aggregate-output status. |
 | repository_final_check_report.md | root | Public | Final repository audit report | Yes | Summarizes checks and remaining issues. |
 | checksums.txt | root | Public | SHA256 checksums for repository files | No | Excludes .git and checksums.txt. |
-| config_public_reproducibility.yaml | code/ | Public | Public reproducibility configuration | No | Does not include restricted inputs. |
-| public_preprocessing_entrypoint.py | code/ | Public | Public-source preprocessing entrypoint | No | Documents public preprocessing mode. |
+| config_public_reproducibility.yaml | code/ | Public | Public reproducibility configuration documenting public-source mode and restricted-input limitations | No | Does not include restricted inputs or full model-training logic. |
+| public_preprocessing_entrypoint.py | code/ | Public | Public-source preprocessing entry point / input-presence check | No | Not the full restricted-input model-training pipeline. |
 | requirements.txt | code/ | Public | Python requirements | No | For reproducibility environment. |
 | wdi_macro_energy_raw_1990_2023.xlsx | public_data/ | Public | Raw WDI macro/energy component | Yes | Public-source data component. |
 | wdi_macro_energy_clean_1990_2023.xlsx | public_data/ | Public | Clean WDI macro/energy component | Yes | Public-source data component. |
