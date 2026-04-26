@@ -21,4 +21,5 @@
 | table6_gdp_model_performance.csv | public_outputs/ | Public aggregate output | GDP model performance table | Yes | Aggregate output only. |
 | table7_permutation_feature_importance.csv | public_outputs/ | Public aggregate output | PFI table | Yes | Aggregate output only. |
 | appendix_classical_benchmark_full.csv | public_outputs/ | Public aggregate output | Full classical benchmark diagnostics | Yes | Aggregate diagnostics only. |
-| appendix_hyperparameter_grid_full.csv | public_outputs/ | Public aggregate output | Hyperparameter grid diagnostics | Yes | Aggregate diagnostics only. |
+| appendix_table_a4_hyperparameter_sensitivity.csv | public_outputs/ | Public aggregate output | Appendix A4 hyperparameter sensitivity diagnostics | Yes | Aggregate diagnostics only. |
+| appendix_table_a5_imputation_variance_summary.csv | public_outputs/ | Public aggregate output | Appendix A5 imputation-variance diagnostics | Yes | Aggregate diagnostics only; no row-level ICAP-derived data. |

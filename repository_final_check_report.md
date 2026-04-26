@@ -51,3 +51,13 @@ checksums.txt was regenerated with one file per line, excluding .git/, checksums
 ## 10. Unresolved issues requiring manual review
 
 None identified from this targeted pass.
+
+## 11. Final parity housekeeping status
+
+- A5 public aggregate output included: yes (`public_outputs/appendix_table_a5_imputation_variance_summary.csv`).
+- Stale `appendix_hyperparameter_grid_full.csv` removed from manifest: yes.
+- Table 7 present in public outputs: yes.
+- Public restricted-data leakage: no.
+- Remaining public-package critical issues: 0.
+- Remaining public-package major issues: 0.
+

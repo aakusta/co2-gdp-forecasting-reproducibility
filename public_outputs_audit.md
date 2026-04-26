@@ -10,9 +10,12 @@
 | public_outputs/appendix_table_a2_multistep_no_imputation.csv | keep_public | Contains aggregate multi-step and no-imputation diagnostics only; no country-year panel records. | Kept public. |
 | public_outputs/appendix_table_a3_classical_benchmark_diagnostics.csv | keep_public | Contains aggregate diagnostic schema/header for classical benchmark appendix output; no row-level restricted panel data. | Kept public. |
 | public_outputs/appendix_table_a4_hyperparameter_sensitivity.csv | keep_public | Contains aggregate hyperparameter sensitivity summary values only. | Kept public. |
+| public_outputs/appendix_table_a5_imputation_variance_summary.csv | keep_public | Contains aggregate imputation-variance diagnostics only (metric-level pooled/within/between/total variance summaries); no country/year or row-level ICAP-derived data. | Kept public. |
 | public_outputs/table7_permutation_feature_importance.csv | keep_public | Contains aggregate manuscript-level PFI values only; no row-level restricted data. | Kept public. |
 | public_outputs/figure1_missing_values_heatmap.png | keep_public | Figure output image; no extractable row-level panel table embedded in repository file format. | Kept public. |
 | public_outputs/figure2_co2_mtgru_error_metrics.png | keep_public | Figure output image with aggregate metric visualization. | Kept public. |
 | public_outputs/figure3_gdp_mtgru_error_metrics.png | keep_public | Figure output image with aggregate metric visualization. | Kept public. |
 | public_outputs/appendix_figure_a1_missingness_correlation_matrix.png | keep_public | Figure output image for missingness correlation pattern. | Kept public. |
 | public_outputs/appendix_figure_a2_missingness_country_pattern.png | keep_public | Figure output image for missingness country pattern. | Kept public. |
+
+Public outputs are aggregate manuscript outputs only. No restricted ICAP-derived row-level files are included.

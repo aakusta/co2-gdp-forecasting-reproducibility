@@ -12,8 +12,11 @@ Policy-variable outputs in this manuscript depend on restricted ICAP-derived inp
 | Appendix Table A3 | public_outputs/appendix_table_a3_classical_benchmark_diagnostics.csv | internal full reproduction pipeline using restricted ICAP-derived inputs | Classical benchmark diagnostics table used in appendix. |
 | Appendix Table A3 full diagnostics | public_outputs/appendix_classical_benchmark_full.csv | internal full reproduction pipeline using restricted ICAP-derived inputs | Full classical benchmark diagnostic output retained as appendix evidence. |
 | Appendix Table A4 | public_outputs/appendix_table_a4_hyperparameter_sensitivity.csv | internal full reproduction pipeline using restricted ICAP-derived inputs | Aggregate hyperparameter sensitivity output. |
+| Appendix Table A5 | public_outputs/appendix_table_a5_imputation_variance_summary.csv | internal full reproduction pipeline using restricted ICAP-derived inputs | Aggregate imputation-variance diagnostics used for Appendix Table A5; no row-level ICAP-derived data. |
 | Figure 1 | public_outputs/figure1_missing_values_heatmap.png | public reproducibility package / aggregate manuscript output | Missing-values heatmap figure used in manuscript package. |
 | Figure 2 | public_outputs/figure2_co2_mtgru_error_metrics.png | internal full reproduction pipeline using restricted ICAP-derived inputs | CO2 error-metric figure from manuscript output set. |
 | Figure 3 | public_outputs/figure3_gdp_mtgru_error_metrics.png | internal full reproduction pipeline using restricted ICAP-derived inputs | GDP error-metric figure from manuscript output set. |
 | Figure A1 | public_outputs/appendix_figure_a1_missingness_correlation_matrix.png | public reproducibility package / aggregate manuscript output | Missingness-correlation appendix figure. |
 | Figure A2 | public_outputs/appendix_figure_a2_missingness_country_pattern.png | public reproducibility package / aggregate manuscript output | Missingness country-pattern appendix figure. |
+
+Reviewer navigation note: The confidential reviewer package uses the suffix `_manuscript_ready` for the same final Table 5–6 exports.
