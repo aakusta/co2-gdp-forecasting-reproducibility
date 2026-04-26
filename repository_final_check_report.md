@@ -20,7 +20,7 @@ public_outputs/table7_permutation_feature_importance.csv is included as an aggre
 
 ## 4. output_mapping.md status
 
-output_mapping.md maps Table 5, Table 6, Table 7, Appendix Tables A1-A5, and figures to the corresponding public aggregate output files. Full reconstruction involving policy variables requires restricted ICAP-derived inputs.
+output_mapping.md maps Table 5, Table 6, Table 7, Appendix Tables A1-A6, and figures to the corresponding public aggregate output files. Full reconstruction involving policy variables requires restricted ICAP-derived inputs.
 
 ## 5. Public config path status
 
@@ -55,6 +55,7 @@ None identified from this targeted pass.
 ## 11. Final parity housekeeping status
 
 - A5 public aggregate output included: yes (`public_outputs/appendix_table_a5_imputation_variance_summary.csv`).
+- A6 public aggregate output included: yes (`public_outputs/appendix_table_a6_lookback_sensitivity.csv`).
 - Stale `appendix_hyperparameter_grid_full.csv` removed from manifest: yes.
 - Table 7 present in public outputs: yes.
 - Public restricted-data leakage: no.

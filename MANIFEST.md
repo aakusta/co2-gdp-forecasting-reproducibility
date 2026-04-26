@@ -26,6 +26,7 @@
 | appendix_table_a3_classical_benchmark_diagnostics.csv | public_outputs/ | Public aggregate output | Appendix A3 classical benchmark diagnostics | Yes | Aggregate diagnostics only. |
 | appendix_table_a4_hyperparameter_sensitivity.csv | public_outputs/ | Public aggregate output | Appendix A4 hyperparameter sensitivity diagnostics | Yes | Aggregate diagnostics only. |
 | appendix_table_a5_imputation_variance_summary.csv | public_outputs/ | Public aggregate output | Appendix A5 imputation-variance diagnostics | Yes | Aggregate diagnostics only; no row-level ICAP-derived data. |
+| appendix_table_a6_lookback_sensitivity.csv | public_outputs/ | Public aggregate output | Appendix A6 lookback-sensitivity diagnostics | Yes | Aggregate diagnostics only; primary specification remains lookback=3. |
 | figure1_missing_values_heatmap.png | public_outputs/ | Public figure output | Figure 1 missing-values heatmap | Yes | Manuscript figure asset. |
 | figure2_co2_mtgru_error_metrics.png | public_outputs/ | Public figure output | Figure 2 CO2 MT-GRU error metrics | Yes | Manuscript figure asset. |
 | figure3_gdp_mtgru_error_metrics.png | public_outputs/ | Public figure output | Figure 3 GDP MT-GRU error metrics | Yes | Manuscript figure asset. |
