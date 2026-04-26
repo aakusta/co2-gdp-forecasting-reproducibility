@@ -20,7 +20,7 @@ public_outputs/table7_permutation_feature_importance.csv is included as an aggre
 
 ## 4. output_mapping.md status
 
-output_mapping.md maps Table 5, Table 6, Table 7, Appendix Tables A1-A4, and figures to the corresponding public aggregate output files. Full reconstruction involving policy variables requires restricted ICAP-derived inputs.
+output_mapping.md maps Table 5, Table 6, Table 7, Appendix Tables A1-A5, and figures to the corresponding public aggregate output files. Full reconstruction involving policy variables requires restricted ICAP-derived inputs.
 
 ## 5. Public config path status
 
@@ -60,4 +60,3 @@ None identified from this targeted pass.
 - Public restricted-data leakage: no.
 - Remaining public-package critical issues: 0.
 - Remaining public-package major issues: 0.
-
