@@ -1,1 +1,2 @@
-stage,model,target,imputation_mode,include_eu,lookback,horizon,warm_start,origin_year,test_year,pooled_rmse_avg,min_n_obs,mean_n_obs,max_n_obs,reliability_status,reliability_note
+model,target,imputation_mode,include_eu,lookback,horizon,warm_start,origin_year,test_year,pooled_rmse_avg,min_n_obs,mean_n_obs,max_n_obs,reliability_status,reliability_note
+No reliable classical econometric rows,ARIMA/ARIMAX/VAR/DFM/StateSpace_UCM,diagnostic_only,False,3,1-3,False,2005-2023,2005-2023,NA,<10,NA,NA,not_reliable_low_n,No classical econometric specification met min_n_obs >= 10 after excluding naive heuristics.
