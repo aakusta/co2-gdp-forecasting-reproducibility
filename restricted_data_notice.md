@@ -17,3 +17,5 @@ For reproducibility, this repository provides:
 Researchers seeking full reproduction of the policy-variable results should obtain the relevant ICAP source material directly from ICAP according to ICAP’s access and redistribution terms.
 
 Restricted ICAP-derived files were made available to the editor and reviewers for confidential peer-review purposes.
+
+The public repository provides aggregate outputs and documentation aligned with the final revised manuscript; confidential reviewer materials contain the restricted ICAP-derived inputs required for full review reproduction.

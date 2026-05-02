@@ -8,6 +8,8 @@ It is designed to support public reproducibility where redistribution is permitt
 
 ## What is included
 
+The public aggregate outputs are named according to the final revised manuscript table, appendix-table, and figure numbering.
+
 - Public WDI/World Bank-derived data components where redistribution is permitted by the source terms.
 - Public-source preprocessing entry points and configuration files; these do not constitute the full restricted-input model-training pipeline.
 - Variable dictionary and source notes.

@@ -2,66 +2,39 @@
 
 ## 1. Summary of fixes made
 
-- Audited public outputs for potential restricted row-level data leakage.
-- Added Table 7 aggregate PFI output.
-- Cleaned output mapping.
-- Corrected public configuration paths.
-- Strengthened README as a Data Availability and Reproducibility Package.
-- Regenerated checksums.
-- Rewrote text files with real UTF-8 LF newlines.
+- Aligned public output filenames with final revised manuscript numbering.
+- Updated output mapping for Tables 5-7, Appendix Tables A1-A8, and Figures 1-3 plus Appendix Figures A1-A2.
+- Removed stale/legacy public-output filenames that conflicted with final numbering.
+- Updated figure filenames to final semantic names:
+  - `figure2_cross_imputation_stability.png`
+  - `figure3_metric_normalized_model_comparison.png`
+- Regenerated checksums after output and documentation updates.
 
 ## 2. Public outputs audit result
 
-The audited files in public_outputs/ are classified as aggregate manuscript outputs or figures. No country-year analysis panel rows, raw/imputed panel records, or ICAP-derived row-level policy status tables were identified in the public outputs.
+Public outputs are aggregate metrics, aggregate diagnostics, or figure assets. No country-year restricted ICAP-derived row-level panel records are included.
 
-## 3. Table 7 PFI output status
+## 3. output_mapping.md status
 
-public_outputs/table7_permutation_feature_importance.csv is included as an aggregate manuscript-level output.
+`output_mapping.md` now maps Table 5, Table 6, Table 7, Appendix Tables A1-A8, and Figures 1-3 / Appendix Figures A1-A2 to the final public output filenames.
 
-## 4. output_mapping.md status
+## 4. README status
 
-output_mapping.md maps Table 5, Table 6, Table 7, Appendix Tables A1-A6, and figures to the corresponding public aggregate output files. Full reconstruction involving policy variables requires restricted ICAP-derived inputs.
+`README.md` includes an explicit note that public aggregate outputs are named according to the final revised manuscript numbering.
 
-## 5. Public config path status
+## 5. Restricted-data framing status
 
-code/config_public_reproducibility.yaml uses repository-relative paths to public_data/ and public_outputs/ and states that full headline reproduction requires restricted ICAP-derived inputs.
+`restricted_data_notice.md` remains aligned with the public/restricted boundary: full reproduction involving restricted ICAP-derived inputs is available only in confidential reviewer materials.
 
-## 6. README status
+## 6. Checksums status
 
-README.md is framed as a Data Availability and Reproducibility Package and clearly distinguishes public-source preprocessing entry points and configuration files from confidential full-review reproduction materials.
+`checksums.txt` was regenerated with one file per line, excluding `.git/`, `checksums.txt`, `__pycache__/`, `.venv/`, and `.DS_Store`.
 
-## 7. Restricted data leakage findings
+## 7. Final parity status
 
-No problematic public row-level restricted dataset was identified. Keyword hits in documentation, configuration files, or aggregate outputs are expected and do not constitute restricted data leakage.
-
-## 8. Checksums status
-
-checksums.txt was regenerated with one file per line, excluding .git/, checksums.txt, __pycache__/, .venv/, and .DS_Store.
-
-## 9. Final formatting and safety pass
-
-- README rendered with proper Markdown line breaks.
-- Markdown tables were rewritten with one row per line.
-- variable_dictionary.csv parses successfully as CSV.
-- code/config_public_reproducibility.yaml parses successfully as YAML.
-- checksums.txt contains one checksum per line.
-- Public outputs were checked for restricted row-level data.
-- No restricted row-level data were identified in public outputs.
-
-## 10. Unresolved issues requiring manual review
-
-None identified from this targeted pass.
-
-## 11. Final parity housekeeping status
-
-- A5 public aggregate output included: yes (`public_outputs/appendix_table_a5_imputation_variance_summary.csv`).
-- A6 public aggregate output included: yes (`public_outputs/appendix_table_a6_lookback_sensitivity.csv`).
-- Stale `appendix_hyperparameter_grid_full.csv` removed from manifest: yes.
-- Table 7 present in public outputs: yes.
+- Old conflicting appendix filename scheme removed: yes.
+- Old conflicting Figure 2/3 filename scheme removed: yes.
+- Final A1-A8 naming in `public_outputs/`: yes.
 - Public restricted-data leakage: no.
-- Remaining public-package critical issues: 0.
-- Remaining public-package major issues: 0.
-
-## 12. Public-code scope clarification
-
-The public repository does not provide the full restricted-input model-training pipeline. It provides public-source preprocessing entry points, configuration files, variable definitions, aggregate manuscript outputs, output mapping, checksums, and reproducibility documentation. Full model reproduction, including policy-variable construction and headline model estimation, requires restricted ICAP-derived materials supplied separately for confidential peer review.
+- Remaining critical issues: 0.
+- Remaining major issues: 0.

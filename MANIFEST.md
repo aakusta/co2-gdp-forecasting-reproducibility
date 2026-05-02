@@ -20,15 +20,16 @@
 | table5_co2_model_performance.csv | public_outputs/ | Public aggregate output | CO2 model performance table | Yes | Aggregate output only. |
 | table6_gdp_model_performance.csv | public_outputs/ | Public aggregate output | GDP model performance table | Yes | Aggregate output only. |
 | table7_permutation_feature_importance.csv | public_outputs/ | Public aggregate output | PFI table | Yes | Aggregate output only. |
-| appendix_classical_benchmark_full.csv | public_outputs/ | Public aggregate output | Full classical benchmark diagnostics | Yes | Aggregate diagnostics only. |
-| appendix_table_a1_warm_start_from_scratch.csv | public_outputs/ | Public aggregate output | Appendix A1 warm-start vs from-scratch diagnostics | Yes | Aggregate diagnostics only. |
-| appendix_table_a2_multistep_no_imputation.csv | public_outputs/ | Public aggregate output | Appendix A2 multi-step and no-imputation diagnostics | Yes | Aggregate diagnostics only. |
-| appendix_table_a3_classical_benchmark_diagnostics.csv | public_outputs/ | Public aggregate output | Appendix A3 classical benchmark diagnostics | Yes | Aggregate diagnostics only. |
-| appendix_table_a4_hyperparameter_sensitivity.csv | public_outputs/ | Public aggregate output | Appendix A4 hyperparameter sensitivity diagnostics | Yes | Aggregate diagnostics only. |
+| appendix_table_a1_country_list_58_national_units.csv | public_outputs/ | Public aggregate output | Appendix A1 58-country national sample list | Yes | Aggregate output only. |
+| appendix_table_a2_no_imputation_robustness.csv | public_outputs/ | Public aggregate output | Appendix A2 no-imputation robustness diagnostics | Yes | Aggregate output only. |
+| appendix_table_a3_warm_start_from_scratch.csv | public_outputs/ | Public aggregate output | Appendix A3 warm-start versus from-scratch diagnostics | Yes | Aggregate output only. |
+| appendix_table_a4_multi_horizon_diagnostics.csv | public_outputs/ | Public aggregate output | Appendix A4 multi-horizon diagnostics | Yes | Aggregate output only. |
+| appendix_table_a7_hyperparameter_sensitivity.csv | public_outputs/ | Public aggregate output | Appendix A7 hyperparameter-sensitivity diagnostics | Yes | Aggregate output only. |
+| appendix_table_a8_classical_econometric_diagnostics.csv | public_outputs/ | Public aggregate output | Appendix A8 limited classical-econometric diagnostics | Yes | Aggregate output only. |
+| figure2_cross_imputation_stability.png | public_outputs/ | Public figure output | Figure 2 cross-imputation stability diagnostic | Yes | Manuscript figure asset. |
+| figure3_metric_normalized_model_comparison.png | public_outputs/ | Public figure output | Figure 3 metric-normalized model-comparison summary | Yes | Manuscript figure asset. |
 | appendix_table_a5_imputation_variance_summary.csv | public_outputs/ | Public aggregate output | Appendix A5 imputation-variance diagnostics | Yes | Aggregate diagnostics only; no row-level ICAP-derived data. |
 | appendix_table_a6_lookback_sensitivity.csv | public_outputs/ | Public aggregate output | Appendix A6 lookback-sensitivity diagnostics | Yes | Aggregate diagnostics only; primary specification remains lookback=3. |
 | figure1_missing_values_heatmap.png | public_outputs/ | Public figure output | Figure 1 missing-values heatmap | Yes | Manuscript figure asset. |
-| figure2_co2_mtgru_error_metrics.png | public_outputs/ | Public figure output | Figure 2 CO2 MT-GRU error metrics | Yes | Manuscript figure asset. |
-| figure3_gdp_mtgru_error_metrics.png | public_outputs/ | Public figure output | Figure 3 GDP MT-GRU error metrics | Yes | Manuscript figure asset. |
 | appendix_figure_a1_missingness_correlation_matrix.png | public_outputs/ | Public figure output | Appendix Figure A1 missingness correlation matrix | Yes | Manuscript appendix figure asset. |
 | appendix_figure_a2_missingness_country_pattern.png | public_outputs/ | Public figure output | Appendix Figure A2 missingness country pattern | Yes | Manuscript appendix figure asset. |
