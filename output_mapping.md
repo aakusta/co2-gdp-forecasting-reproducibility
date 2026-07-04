@@ -16,11 +16,11 @@ This file maps the aggregate public outputs in this repository to the tables, ap
 | Appendix Table A7 | public_outputs/appendix_table_a7_hyperparameter_sensitivity.csv | Local hyperparameter-sensitivity diagnostic. |
 | Appendix Table A8 | public_outputs/appendix_table_a8_classical_econometric_diagnostics.csv | Limited classical-econometric diagnostic checks. |
 | Appendix Table A9 | public_outputs/appendix_table_a9_missingness_mechanism_diagnostics.csv | Supplementary missingness-mechanism diagnostics. |
-| Appendix Table A10 | public_outputs/appendix_table_a10_mnar_sensitivity.csv | Local MNAR-style delta-shift sensitivity checks. |
+| Appendix Table A10 | public_outputs/appendix_table_a10_mnar_sensitivity.csv | MNAR-style delta-shift sensitivity checks. |
 | Appendix Table A11 | public_outputs/appendix_table_a11_imputation_effect_on_key_results.csv | Cross-imputation stability summary for key headline models. |
 | Appendix Table A12 | public_outputs/appendix_table_a12_prediction_interval_summary.csv | Residual-based prediction-interval summary. |
-| Appendix Table A13 | public_outputs/appendix_table_a13_gru_ablation_mapping.csv | Mapping of the four requested GRU ablation checks to implemented evidence. |
-| Appendix Table A14 | public_outputs/appendix_table_a14_gru_ablation_numerical_summary.csv | Numerical summary of the GRU ablation checks. |
+| Appendix Table A13a | public_outputs/appendix_table_a13a_gru_ablation_mapping.csv | Mapping of the requested GRU ablation checks to evaluated specifications and supplementary diagnostics. |
+| Appendix Table A13b | public_outputs/appendix_table_a13b_gru_ablation_numerical_summary.csv | Numerical summary of the targeted supplementary GRU ablation checks. |
 | Figure 1 | public_outputs/figure1_missing_values_heatmap.png | Missing-values heatmap. |
 | Figure 2 | public_outputs/figure2_cross_imputation_stability.png | Cross-imputation stability diagnostic. |
 | Figure 3 | public_outputs/figure3_metric_normalized_model_comparison.png | Metric-normalized model-comparison summary. |
