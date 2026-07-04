@@ -36,5 +36,6 @@ Public outputs are aggregate metrics, aggregate diagnostics, or figure assets. N
 - Old conflicting Figure 2/3 filename scheme removed: yes.
 - Final A1-A14 naming in `public_outputs/`: yes.
 - Public restricted-data leakage: no.
+- Internal execution-style dataset labels in public appendix outputs were sanitized.
 - Remaining critical issues: 0.
 - Remaining major issues: 0.
