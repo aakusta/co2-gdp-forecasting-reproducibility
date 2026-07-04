@@ -3,7 +3,7 @@
 ## 1. Summary of fixes made
 
 - Aligned public output filenames with final revised manuscript numbering.
-- Updated output mapping for Tables 5-7, Appendix Tables A1-A8, and Figures 1-3 plus Appendix Figures A1-A2.
+- Updated output mapping for Tables 5-7, Appendix Tables A1-A14, and Figures 1-3 plus Appendix Figures A1-A2.
 - Removed stale/legacy public-output filenames that conflicted with final numbering.
 - Updated figure filenames to final semantic names:
   - `figure2_cross_imputation_stability.png`
@@ -16,7 +16,7 @@ Public outputs are aggregate metrics, aggregate diagnostics, or figure assets. N
 
 ## 3. output_mapping.md status
 
-`output_mapping.md` now maps Table 5, Table 6, Table 7, Appendix Tables A1-A8, and Figures 1-3 / Appendix Figures A1-A2 to the final public output filenames.
+`output_mapping.md` now maps Table 5, Table 6, Table 7, Appendix Tables A1-A14, and Figures 1-3 / Appendix Figures A1-A2 to the final public output filenames.
 
 ## 4. README status
 
@@ -34,7 +34,7 @@ Public outputs are aggregate metrics, aggregate diagnostics, or figure assets. N
 
 - Old conflicting appendix filename scheme removed: yes.
 - Old conflicting Figure 2/3 filename scheme removed: yes.
-- Final A1-A8 naming in `public_outputs/`: yes.
+- Final A1-A14 naming in `public_outputs/`: yes.
 - Public restricted-data leakage: no.
 - Remaining critical issues: 0.
 - Remaining major issues: 0.

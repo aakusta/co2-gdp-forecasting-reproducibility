@@ -26,6 +26,12 @@
 | appendix_table_a4_multi_horizon_diagnostics.csv | public_outputs/ | Public aggregate output | Appendix A4 multi-horizon diagnostics | Yes | Aggregate output only. |
 | appendix_table_a7_hyperparameter_sensitivity.csv | public_outputs/ | Public aggregate output | Appendix A7 hyperparameter-sensitivity diagnostics | Yes | Aggregate output only. |
 | appendix_table_a8_classical_econometric_diagnostics.csv | public_outputs/ | Public aggregate output | Appendix A8 limited classical-econometric diagnostics | Yes | Aggregate output only. |
+| appendix_table_a9_missingness_mechanism_diagnostics.csv | public_outputs/ | Public aggregate output | Appendix A9 missingness-mechanism diagnostics | Yes | Aggregate output only. |
+| appendix_table_a10_mnar_sensitivity.csv | public_outputs/ | Public aggregate output | Appendix A10 local MNAR-style sensitivity diagnostics | Yes | Sanitized aggregate output; no reviewer-only internal diagnostic labels. |
+| appendix_table_a11_imputation_effect_on_key_results.csv | public_outputs/ | Public aggregate output | Appendix A11 cross-imputation stability summaries for key headline models | Yes | Sanitized aggregate output with generic imputation IDs. |
+| appendix_table_a12_prediction_interval_summary.csv | public_outputs/ | Public aggregate output | Appendix A12 residual-based prediction-interval summary | Yes | Aggregate output only. |
+| appendix_table_a13_gru_ablation_mapping.csv | public_outputs/ | Public aggregate output | Appendix A13 mapping of GRU ablation checks to implemented evidence | Yes | Public-facing aggregate mapping table. |
+| appendix_table_a14_gru_ablation_numerical_summary.csv | public_outputs/ | Public aggregate output | Appendix A14 numerical summary of the GRU ablation checks | Yes | Public-facing aggregate numerical summary. |
 | figure2_cross_imputation_stability.png | public_outputs/ | Public figure output | Figure 2 cross-imputation stability diagnostic | Yes | Manuscript figure asset. |
 | figure3_metric_normalized_model_comparison.png | public_outputs/ | Public figure output | Figure 3 metric-normalized model-comparison summary | Yes | Manuscript figure asset. |
 | appendix_table_a5_imputation_variance_summary.csv | public_outputs/ | Public aggregate output | Appendix A5 imputation-variance diagnostics | Yes | Aggregate diagnostics only; no row-level ICAP-derived data. |

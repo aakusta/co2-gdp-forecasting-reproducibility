@@ -36,6 +36,10 @@ Classical ARIMA/ARIMAX/VAR/DFM/UCM diagnostics are provided as aggregate appendi
 
 The public repository does not fully reproduce merged analysis panels, imputed panels, or policy-variable results because restricted ICAP-derived inputs are not publicly redistributed.
 
-## 10. Full reviewer reproduction
+## 10. Supplementary appendix diagnostics
+
+Public aggregate outputs now include Appendix Tables A9-A14 in manuscript-aligned form. The A10, A11, A13, and A14 public files are sanitized aggregate outputs that remove reviewer-only internal diagnostic labels while preserving the reported summary evidence.
+
+## 11. Full reviewer reproduction
 
 Restricted ICAP-derived files and full replication materials were made available to the editor and reviewers for confidential peer-review purposes.

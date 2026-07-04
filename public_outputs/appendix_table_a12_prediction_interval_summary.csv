@@ -1,0 +1,13 @@
+model,target,nominal_coverage,empirical_coverage,mean_interval_width,mean_normalized_width,interval_rows_evaluated,interval_method
+LastValue,co2_emissions,0.8,0.7261904761904762,22.613120000000023,1.057885330361242,1680,expanding_window_empirical_residual_interval
+LastValue,co2_emissions,0.95,0.8898809523809523,121.371115833333,5.656533840573515,1680,expanding_window_empirical_residual_interval
+MT-GRU,co2_emissions,0.8,0.656547619047619,555.3812099622355,26.728125111193066,5040,expanding_window_empirical_residual_interval
+MT-GRU,co2_emissions,0.95,0.8464285714285714,1781.8530877734224,84.46453557756435,5040,expanding_window_empirical_residual_interval
+RandomForest,co2_emissions,0.8,0.768452380952381,251.76896473333338,11.83087525136303,1680,expanding_window_empirical_residual_interval
+RandomForest,co2_emissions,0.95,0.9386904761904762,1366.9151965083288,64.51676795775937,1680,expanding_window_empirical_residual_interval
+LastValue,gdp_growth,0.8,0.6239067055393586,6.138886488921285,5.537864646138309,1715,expanding_window_empirical_residual_interval
+LastValue,gdp_growth,0.95,0.8513119533527697,12.096412461224487,10.50881191411614,1715,expanding_window_empirical_residual_interval
+MT-GRU,gdp_growth,0.8,0.7768932038834951,8.423726264381582,7.927369447911285,5150,expanding_window_empirical_residual_interval
+MT-GRU,gdp_growth,0.95,0.914368932038835,14.977344385707111,14.102644012895322,5150,expanding_window_empirical_residual_interval
+RandomForest,gdp_growth,0.8,0.6489795918367347,6.261967190775513,5.600583526593993,1715,expanding_window_empirical_residual_interval
+RandomForest,gdp_growth,0.95,0.8303206997084548,12.003651812574336,10.66420967727787,1715,expanding_window_empirical_residual_interval

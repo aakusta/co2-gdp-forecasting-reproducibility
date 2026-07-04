@@ -10,6 +10,8 @@ It is designed to support public reproducibility where redistribution is permitt
 
 The public aggregate outputs are named according to the final revised manuscript table, appendix-table, and figure numbering.
 
+The current public output set includes Appendix Tables A1-A14 where redistribution is appropriate; Appendix Tables A10, A11, A13, and A14 are provided in sanitized aggregate form for public reproducibility and omit reviewer-only internal diagnostic labels.
+
 - Public WDI/World Bank-derived data components where redistribution is permitted by the source terms.
 - Public-source preprocessing entry points and configuration files; these do not constitute the full restricted-input model-training pipeline.
 - Variable dictionary and source notes.
