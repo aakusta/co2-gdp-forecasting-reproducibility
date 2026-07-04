@@ -1,0 +1,5 @@
+reviewer_request,evaluated_specification_diagnostic,evidence_type
+Shared layers only,"MT-GRU baseline with a shared GRU, shared dense layer, and joint two-output prediction layer",Existing headline benchmark
+Task-specific only,"ST-GRU models trained separately for CO2 and GDP under the same observed-target-only evaluation protocol",Existing headline benchmark
+MT-GRU with shuffled secondary target,"MT-GRU with the secondary target shuffled before joint training",Targeted supplementary ablation check
+MT-GRU without policy dummies,"MT-GRU with ETS and policy-stage descriptors removed",Targeted supplementary ablation check
