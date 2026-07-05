@@ -6,7 +6,7 @@ The analysis combines public WDI / World Bank macroeconomic and energy data with
 
 ## 2. Public-source preprocessing
 
-The public repository provides public-source preprocessing entry points, configuration files, variable definitions, aggregate manuscript outputs, output mapping, checksums, and reproducibility documentation where redistribution is permitted by source terms.
+The public repository provides public-source preprocessing/input-check entry points, configuration files, variable definitions, aggregate manuscript outputs, output mapping, checksums, and reproducibility documentation where redistribution is permitted by source terms.
 
 ## 3. Restricted-source policy variables
 
@@ -38,7 +38,7 @@ The public repository does not fully reproduce merged analysis panels, imputed p
 
 ## 10. Supplementary appendix diagnostics
 
-Public aggregate outputs now include Appendix Tables A9-A14 in manuscript-aligned form. The A10, A11, A13, and A14 public files are sanitized aggregate outputs that remove reviewer-only internal diagnostic labels while preserving the reported summary evidence.
+Public aggregate outputs now include Appendix Tables A9-A14 in manuscript-aligned form. Appendix Table A10 is framed as a local supplementary single-imputation MNAR-style diagnostic, Appendix Table A11 separates per-imputation diagnostic summaries from pooled headline reference fields, Appendix Table A13 uses neutral public-facing ablation-mapping terminology, and Appendix Table A14 preserves the corresponding numerical summary evidence.
 
 ## 11. Full reviewer reproduction
 

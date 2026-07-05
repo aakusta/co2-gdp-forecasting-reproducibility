@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository provides public data components, public-source preprocessing entry points, configuration files, variable definitions, aggregate manuscript outputs, output mapping, checksums, and reproducibility documentation associated with the manuscript.
+This repository provides public data components, public-source preprocessing/input-check entry points, configuration files, variable definitions, aggregate manuscript outputs, output mapping, checksums, and reproducibility documentation associated with the manuscript.
 
 It is designed to support public reproducibility where redistribution is permitted, while clearly distinguishing restricted ICAP-derived materials that cannot be publicly shared. Full model reproduction, including policy-variable construction and headline model estimation, requires restricted ICAP-derived materials supplied separately for confidential peer review.
 
@@ -13,7 +13,7 @@ The public aggregate outputs are named according to the final revised manuscript
 The current public output set includes Appendix Tables A1-A12 and A13a-A13b where redistribution is appropriate; Appendix Tables A10, A11, A13a, and A13b are provided in sanitized aggregate form for public reproducibility and omit reviewer-only internal diagnostic labels.
 
 - Public WDI/World Bank-derived data components where redistribution is permitted by the source terms.
-- Public-source preprocessing entry points and configuration files; these do not constitute the full restricted-input model-training pipeline.
+- Public-source preprocessing/input-check entry points and configuration files; these do not constitute the full restricted-input model-training pipeline.
 - Variable dictionary and source notes.
 - Aggregate manuscript outputs where redistribution is appropriate.
 - Output mapping and reproducibility notes.
@@ -32,7 +32,7 @@ The analysis uses World Development Indicators / World Bank macroeconomic and en
 
 ## Reproducibility modes
 
-Public reproducibility mode documents the public-source preprocessing workflow and provides aggregate manuscript outputs where redistribution is appropriate.
+Public reproducibility mode documents the public-source preprocessing/input-check workflow and provides aggregate manuscript outputs where redistribution is appropriate.
 
 Internal/reviewer mode reproduces the full analysis using restricted ICAP-derived files supplied separately for confidential peer review.
 
@@ -41,7 +41,7 @@ Full reconstruction of the merged analysis panel, imputed panels, and policy-var
 ## How to run
 
 1. Install requirements from `code/requirements.txt`, where applicable.
-2. Use `code/config_public_reproducibility.yaml` for public-source preprocessing documentation.
+2. Use `code/config_public_reproducibility.yaml` for public-source preprocessing/input-check documentation.
 3. Use internal/reviewer reproduction materials only where restricted ICAP-derived data are available under appropriate access terms.
 
 ## Citation / manuscript

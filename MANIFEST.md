@@ -8,11 +8,11 @@
 | restricted_data_notice.md | root | Public | Explains non-public ICAP-derived materials | Yes | Does not include restricted data. |
 | reproducibility_notes.md | root | Public | Reproducibility workflow notes | Yes | Explains public and internal/reviewer modes. |
 | output_mapping.md | root | Public | Maps manuscript tables/figures to output files | Yes | Links aggregate outputs to manuscript items. |
-| public_outputs_audit.md | root | Public | Documents public-output safety audit | Yes | Confirms aggregate-output status. |
-| repository_final_check_report.md | root | Public | Final repository audit report | Yes | Summarizes checks and remaining issues. |
+| public_outputs_audit.md | root | Public | Documents public-output safety audit | Yes | Confirms aggregate-output status for A1-A14 and figures. |
+| repository_final_check_report.md | root | Public | Final repository audit report | Yes | Summarizes synchronized checks after the surface-lock pass. |
 | checksums.txt | root | Public | SHA256 checksums for repository files | No | Excludes .git and checksums.txt. |
 | config_public_reproducibility.yaml | code/ | Public | Public reproducibility configuration documenting public-source mode and restricted-input limitations | No | Does not include restricted inputs or full model-training logic. |
-| public_preprocessing_entrypoint.py | code/ | Public | Public-source preprocessing entry point / input-presence check | No | Not the full restricted-input model-training pipeline. |
+| public_preprocessing_entrypoint.py | code/ | Public | Public-source preprocessing/input-check entry point | No | Not the full restricted-input model-training pipeline. |
 | requirements.txt | code/ | Public | Python requirements | No | For reproducibility environment. |
 | wdi_macro_energy_raw_1990_2023.xlsx | public_data/ | Public | Raw WDI macro/energy component | Yes | Public-source data component. |
 | wdi_macro_energy_clean_1990_2023.xlsx | public_data/ | Public | Clean WDI macro/energy component | Yes | Public-source data component. |
@@ -24,18 +24,18 @@
 | appendix_table_a2_no_imputation_robustness.csv | public_outputs/ | Public aggregate output | Appendix A2 no-imputation robustness diagnostics | Yes | Aggregate output only. |
 | appendix_table_a3_warm_start_from_scratch.csv | public_outputs/ | Public aggregate output | Appendix A3 warm-start versus from-scratch diagnostics | Yes | Aggregate output only. |
 | appendix_table_a4_multi_horizon_diagnostics.csv | public_outputs/ | Public aggregate output | Appendix A4 multi-horizon diagnostics | Yes | Aggregate output only. |
-| appendix_table_a7_hyperparameter_sensitivity.csv | public_outputs/ | Public aggregate output | Appendix A7 hyperparameter-sensitivity diagnostics | Yes | Aggregate output only. |
+| appendix_table_a5_imputation_variance_summary.csv | public_outputs/ | Public aggregate output | Appendix A5 imputation-variance diagnostics | Yes | Aggregate diagnostics only; no row-level ICAP-derived data. |
+| appendix_table_a6_lookback_sensitivity.csv | public_outputs/ | Public aggregate output | Appendix A6 lookback-sensitivity diagnostics | Yes | Aggregate diagnostics only; settings-aligned but not intended to be numerically identical to Tables 5-6. |
+| appendix_table_a7_hyperparameter_sensitivity.csv | public_outputs/ | Public aggregate output | Appendix A7 hyperparameter-sensitivity diagnostics | Yes | Sanitized single-imputation diagnostic label only; no public imputed panel redistribution. |
 | appendix_table_a8_classical_econometric_diagnostics.csv | public_outputs/ | Public aggregate output | Appendix A8 limited classical-econometric diagnostics | Yes | Aggregate output only. |
 | appendix_table_a9_missingness_mechanism_diagnostics.csv | public_outputs/ | Public aggregate output | Appendix A9 missingness-mechanism diagnostics | Yes | Aggregate output only. |
-| appendix_table_a10_mnar_sensitivity.csv | public_outputs/ | Public aggregate output | Appendix A10 local MNAR-style sensitivity diagnostics | Yes | Sanitized aggregate output; no reviewer-only internal diagnostic labels. |
-| appendix_table_a11_imputation_effect_on_key_results.csv | public_outputs/ | Public aggregate output | Appendix A11 cross-imputation stability summaries for key headline models | Yes | Sanitized aggregate output with generic imputation IDs. |
+| appendix_table_a10_mnar_sensitivity.csv | public_outputs/ | Public aggregate output | Appendix A10 local supplementary single-imputation MNAR-style diagnostic | Yes | Sanitized aggregate diagnostic; not a headline-table reproduction. |
+| appendix_table_a11_imputation_effect_on_key_results.csv | public_outputs/ | Public aggregate output | Appendix A11 cross-imputation stability summaries for key headline models | Yes | Includes pooled headline reference fields that are distinct from the per-imputation diagnostic means. |
 | appendix_table_a12_prediction_interval_summary.csv | public_outputs/ | Public aggregate output | Appendix A12 residual-based prediction-interval summary | Yes | Aggregate output only. |
-| appendix_table_a13_gru_ablation_mapping.csv | public_outputs/ | Public aggregate output | Appendix A13 mapping of GRU ablation checks to implemented evidence | Yes | Public-facing aggregate mapping table. |
+| appendix_table_a13_gru_ablation_mapping.csv | public_outputs/ | Public aggregate output | Appendix A13 mapping of GRU ablation checks to implemented evidence | Yes | Public-facing ablation-mapping table. |
 | appendix_table_a14_gru_ablation_numerical_summary.csv | public_outputs/ | Public aggregate output | Appendix A14 numerical summary of the GRU ablation checks | Yes | Public-facing aggregate numerical summary. |
+| figure1_missing_values_heatmap.png | public_outputs/ | Public figure output | Figure 1 missing-values heatmap | Yes | Manuscript figure asset. |
 | figure2_cross_imputation_stability.png | public_outputs/ | Public figure output | Figure 2 cross-imputation stability diagnostic | Yes | Manuscript figure asset. |
 | figure3_metric_normalized_model_comparison.png | public_outputs/ | Public figure output | Figure 3 metric-normalized model-comparison summary | Yes | Manuscript figure asset. |
-| appendix_table_a5_imputation_variance_summary.csv | public_outputs/ | Public aggregate output | Appendix A5 imputation-variance diagnostics | Yes | Aggregate diagnostics only; no row-level ICAP-derived data. |
-| appendix_table_a6_lookback_sensitivity.csv | public_outputs/ | Public aggregate output | Appendix A6 lookback-sensitivity diagnostics | Yes | Aggregate diagnostics only; primary specification remains lookback=3. |
-| figure1_missing_values_heatmap.png | public_outputs/ | Public figure output | Figure 1 missing-values heatmap | Yes | Manuscript figure asset. |
 | appendix_figure_a1_missingness_correlation_matrix.png | public_outputs/ | Public figure output | Appendix Figure A1 missingness correlation matrix | Yes | Manuscript appendix figure asset. |
 | appendix_figure_a2_missingness_country_pattern.png | public_outputs/ | Public figure output | Appendix Figure A2 missingness country pattern | Yes | Manuscript appendix figure asset. |

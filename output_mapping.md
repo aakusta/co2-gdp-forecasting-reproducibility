@@ -12,15 +12,15 @@ This file maps the aggregate public outputs in this repository to the tables, ap
 | Appendix Table A3 | public_outputs/appendix_table_a3_warm_start_from_scratch.csv | Warm-start versus from-scratch diagnostic. |
 | Appendix Table A4 | public_outputs/appendix_table_a4_multi_horizon_diagnostics.csv | Multi-horizon diagnostic for h = 1, h = 2, and h = 3. |
 | Appendix Table A5 | public_outputs/appendix_table_a5_imputation_variance_summary.csv | Imputation-variance / cross-imputation diagnostic. |
-| Appendix Table A6 | public_outputs/appendix_table_a6_lookback_sensitivity.csv | Lookback-sensitivity diagnostic. |
-| Appendix Table A7 | public_outputs/appendix_table_a7_hyperparameter_sensitivity.csv | Local hyperparameter-sensitivity diagnostic. |
+| Appendix Table A6 | public_outputs/appendix_table_a6_lookback_sensitivity.csv | Supplementary lookback-sensitivity diagnostic with settings-aligned but non-headline pooled values. |
+| Appendix Table A7 | public_outputs/appendix_table_a7_hyperparameter_sensitivity.csv | Local hyperparameter-sensitivity diagnostic based on a sanitized single-imputation diagnostic panel. |
 | Appendix Table A8 | public_outputs/appendix_table_a8_classical_econometric_diagnostics.csv | Limited classical-econometric diagnostic checks. |
 | Appendix Table A9 | public_outputs/appendix_table_a9_missingness_mechanism_diagnostics.csv | Supplementary missingness-mechanism diagnostics. |
-| Appendix Table A10 | public_outputs/appendix_table_a10_mnar_sensitivity.csv | MNAR-style delta-shift sensitivity checks. |
-| Appendix Table A11 | public_outputs/appendix_table_a11_imputation_effect_on_key_results.csv | Cross-imputation stability summary for key headline models. |
+| Appendix Table A10 | public_outputs/appendix_table_a10_mnar_sensitivity.csv | Local supplementary single-imputation MNAR-style diagnostic. |
+| Appendix Table A11 | public_outputs/appendix_table_a11_imputation_effect_on_key_results.csv | Cross-imputation stability summary with pooled headline reference columns. |
 | Appendix Table A12 | public_outputs/appendix_table_a12_prediction_interval_summary.csv | Residual-based prediction-interval summary. |
-| Appendix Table A13a | public_outputs/appendix_table_a13a_gru_ablation_mapping.csv | Mapping of the requested GRU ablation checks to evaluated specifications and supplementary diagnostics. |
-| Appendix Table A13b | public_outputs/appendix_table_a13b_gru_ablation_numerical_summary.csv | Numerical summary of the targeted supplementary GRU ablation checks. |
+| Appendix Table A13 | public_outputs/appendix_table_a13_gru_ablation_mapping.csv | Public-facing ablation-mapping table for the four requested GRU checks. |
+| Appendix Table A14 | public_outputs/appendix_table_a14_gru_ablation_numerical_summary.csv | Numerical summary of the GRU ablation checks. |
 | Figure 1 | public_outputs/figure1_missing_values_heatmap.png | Missing-values heatmap. |
 | Figure 2 | public_outputs/figure2_cross_imputation_stability.png | Cross-imputation stability diagnostic. |
 | Figure 3 | public_outputs/figure3_metric_normalized_model_comparison.png | Metric-normalized model-comparison summary. |
