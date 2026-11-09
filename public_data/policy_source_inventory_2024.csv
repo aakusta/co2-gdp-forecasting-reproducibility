@@ -1,0 +1,129 @@
+record_id,program,type,status,jurisdiction,source_row
+Tax_FI,Finland carbon tax,National Carbon tax,Implemented in 1990,Finland,3
+Tax_PL,Poland carbon tax,National Carbon tax,Implemented in 1990,Poland,4
+Tax_NO,Norway carbon tax,National Carbon tax,Implemented in 1991,Norway,5
+Tax_SE,Sweden carbon tax,National Carbon tax,Implemented in 1991,Sweden,6
+Tax_DK,Denmark carbon tax,National Carbon tax,Implemented in 1992,Denmark,7
+Tax_LT,Latvia carbon tax,National Carbon tax,Implemented in 2004,Latvia,8
+Tax_SL,Slovenia Carbon tax,National Carbon tax,Implemented in 1996,Slovenia,9
+Tax_EE,Estonia carbon tax,National Carbon tax,Implemented in 2000,Estonia,10
+ETS_EU,EU ETS,Regional ETS,Implemented in 2005,EU,11
+ETS_CA_Alberta,Alberta TIER,Subnational - State/Province ETS,Implemented in 2007,Alberta,12
+ETS_CH,Switzerland ETS,National ETS,Implemented in 2008,Switzerland,13
+ETS_NZ,New Zealand ETS,National ETS,Implemented in 2008,New Zealand,14
+Tax_CH,Switzerland carbon tax,National Carbon tax,Implemented in 2008,Switzerland,15
+Tax_CA_BC,BC carbon tax,Subnational - State/Province Carbon tax,Implemented in 2008,British Columbia,16
+ETS_RGGI,RGGI,Subnational - State/Province ETS,Implemented in 2009,RGGI,17
+Tax_IS,Iceland carbon tax,National Carbon tax,Implemented in 2010,Iceland,18
+ETS_JP_Tokyo,Tokyo CaT,Subnational - City ETS,Implemented in 2010,Tokyo,19
+Tax_IE,Ireland carbon tax,National Carbon tax,Implemented in 2010,Ireland,20
+ETS_JP_Saitama,Saitama ETS,Subnational - City ETS,Implemented in 2011,Saitama,21
+ETS_US_California,California CaT,Subnational - State/Province ETS,Implemented in 2012,California,22
+Tax_JP,Japan carbon tax,National Carbon tax,Implemented in 2012,Japan,23
+ETS_CA_Quebec,Quebec CaT,Subnational - State/Province ETS,Implemented in 2013,Quebec,24
+ETS_KZ,Kazakhstan ETS,National ETS,Implemented in 2013,Kazakhstan,25
+Tax_UK,UK Carbon Price Support,National Carbon tax,Implemented in 2013,United Kingdom,26
+ETS_CN_Shenzhen,Shenzhen pilot ETS,Subnational - City ETS,Implemented in 2013,Shenzhen,27
+ETS_CN_Shanghai,Shanghai pilot ETS,Subnational - City ETS,Implemented in 2013,Shanghai,28
+ETS_CN_Beijing,Beijing pilot ETS,Subnational - City ETS,Implemented in 2013,Beijing,29
+ETS_CN_Guangdong,Guangdong pilot ETS,Subnational - State/Province ETS,Implemented in 2013,Guangdong (except Shenzhen),30
+ETS_CN_Tianjin,Tianjin pilot ETS,Subnational - City ETS,Implemented in 2013,Tianjin,31
+Tax_FR,France carbon tax,National Carbon tax,Implemented in 2014,France,32
+Tax_MX,Mexico carbon tax,National Carbon tax,Implemented in 2014,Mexico,33
+ETS_CN_Hubei,Hubei pilot ETS,Subnational - State/Province ETS,Implemented in 2014,Hubei,34
+ETS_CN_Chongqing,Chongqing pilot ETS,Subnational - City ETS,Implemented in 2014,Chongqing,35
+ETS_KR,Korea ETS,National ETS,Implemented in 2015,"Korea, Rep.",36
+Tax_PT,Portugal carbon tax,National Carbon tax,Implemented in 2015,Portugal,37
+ETS_CA_BC,BC OBPS,Subnational - State/Province ETS,Implemented in 2016,British Columbia,38
+ETS_AU2,Australia Safeguard Mechanism,National ETS,Implemented in 2023,Australia,39
+Tax_ZA,South Africa carbon tax,National Carbon tax,Implemented in 2019,South Africa,40
+Tax_CL,Chile carbon tax,National Carbon tax,Implemented in 2017,Chile,41
+Tax_CO,Colombia carbon tax,National Carbon tax,Implemented in 2017,Colombia,42
+Tax_UA,Ukraine carbon tax,National Carbon tax,Implemented in 2011,Ukraine,43
+Tax_LI,Liechtenstein carbon tax,National Carbon tax,Implemented in 2008,Liechtenstein,44
+ETS_US_Washington,Washington CCA,Subnational - State/Province ETS,Implemented in 2023,Washington,45
+ETS_CN_Fujian,Fujian pilot ETS,Subnational - State/Province ETS,Implemented in 2016,Fujian,46
+ETS_CA,Canada federal OBPS,National ETS,Implemented in 2019,Canada,47
+Tax_SG,Singapore carbon tax,National Carbon tax,Implemented in 2019,Singapore,48
+ETS_CN,China national ETS,National ETS,Implemented in 2021,China,49
+ETS_MX,Mexico pilot ETS,National ETS,Implemented in 2020,Mexico,50
+ETS_CA_NL,Newfoundland and Labrador PSS,Subnational - State/Province ETS,Implemented in 2019,Newfoundland and Labrador,51
+ETS_US_MA,Massachusetts ETS,Subnational - State/Province ETS,Implemented in 2018,Massachusetts,52
+Tax_CA_NT,Northwest Territories carbon tax,Subnational - State/Province Carbon tax,Implemented in 2019,Northwest Territories,53
+ETS_CA_NS,Nova Scotia OBPS,Subnational - State/Province ETS,Implemented in 2019,Nova Scotia,54
+Tax_CA,Canada federal fuel charge,National Carbon tax,Implemented in 2019,Canada,55
+Tax_NL,Netherlands carbon tax,National Carbon tax,Implemented in 2021,Netherlands,56
+Tax_AR,Argentina carbon tax,National Carbon tax,Implemented in 2018,Argentina,57
+ETS_CA_SK,Saskatchewan OBPS,Subnational - State or Province ETS,Implemented in 2019,Saskatchewan,58
+Tax_ES,Spain carbon tax,National Carbon tax,Implemented in 2014,Spain,59
+ETS_CA_NB,New Brunswick OBPS,Subnational - State/Province ETS,Implemented in 2021,New Brunswick,60
+ETS_CA_Ontario2,Ontario EPS,Subnational - State/Province ETS,Implemented in 2022,Ontario,61
+ETS_ID,Indonesia ETS,National ETS,Implemented in 2023,Indonesia,62
+ETS_DE,Germany ETS,National ETS,Implemented in 2021,Germany,63
+Tax_LU,Luxembourg carbon tax,National Carbon tax,Implemented in 2021,Luxembourg,64
+ETS_MO,Montenegro ETS,National ETS,Implemented in 2022,Montenegro,65
+ETS_UK,UK ETS,National ETS,Implemented in 2021,United Kingdom,66
+Tax_MX_ZA,Zacatecas carbon tax,Subnational - State/Province Carbon tax,Implemented in 2017,Zacatecas,67
+ETS_AT,Austria ETS,National ETS,Implemented in 2022,Austria,68
+Tax_UY,Uruguay CO2 tax,National Carbon tax,Implemented in 2022,Uruguay,69
+Tax_CN_Taiwan,Taiwan carbon fee,Subnational - State/Province Carbon tax,Implemented in 2024,"Taiwan, China",70
+Tax_MX_Queretaro,Queretaro carbon tax,Subnational - State/Province Carbon tax,Implemented in 2022,Queretaro,71
+Tax_MX_State of Mexico,State of Mexico carbon tax,Subnational - State/Province Carbon tax,Implemented in 2022,State of Mexico,72
+Tax_MX_Yucatan,Yucatan carbon tax,Subnational - State/Province Carbon tax,Implemented in 2022,Yucatan,73
+Tax_MX_Guanajuato,Guanajuato carbon tax,Subnational - State/Province Carbon tax,Implemented in 2023,Guanajuato,74
+Tax_MX_Durango,Durango carbon tax,Subnational - State/Province Carbon tax,Implemented in 2024,Durango,75
+Tax_HU,Hungary Carbon tax,National Carbon tax,Implemented in 2023,Hungary,76
+Tax_AL,Albania Carbon tax,National Carbon tax,Implemented in 2008,Albania,77
+ETS_CL,Chile ETS,National ETS,Under consideration since 2016,Chile,78
+ETS_CO,Colombia ETS,National ETS,Under development since 2016,Colombia,79
+ETS_JP,Japan ETS,National ETS,Under development since 2016,Japan,80
+ETS_TH,Thailand ETS,National ETS,Under consideration since 2016,Thailand,81
+ETS_TR,Türkiye ETS,National ETS,Under development since 2016,Türkiye,82
+ETS_UA,Ukraine ETS,National ETS,Under development since 2016,Ukraine,83
+ETS_US_Oregon,Oregon ETS,Subnational - State/Province ETS,Under development since 2016,Oregon,84
+ETS_BR,Brazil ETS,National ETS,Under consideration since 2022,Brazil,85
+ETS_CN_Taiwan,"Taiwan, China ETS",Subnational - State/Province ETS,Under consideration since 2016,"Taiwan, China",86
+ETS_VN,Viet Nam ETS,National ETS,Under development since 2017,Viet Nam,87
+Tax_CAT,Catalonia Carbon tax,Subnational - State/Province Carbon tax,Under development since 2018,Catalonia,88
+Tax_CD,Côte d’Ivoire Carbon tax,National Carbon tax,Under consideration since 2018,Côte d’Ivoire,89
+Tax_SEN,Senegal Carbon tax,National Carbon tax,Under consideration since 2019,Senegal,90
+ETS_US_PE,Pennsylvania ETS,Subnational - State/Province ETS,Under development since 2019,Pennsylvania,91
+ETS_CA_Manitoba,Manitoba ETS,Subnational - State/Province ETS,Under consideration since 2018,Manitoba,92
+Tax_CA_Manitoba,Manitoba Carbon tax,Subnational - State/Province Carbon tax,Under consideration since 2018,Manitoba,93
+Tax_MX_JA,Jalisco Carbon tax,Subnational - State/Province Carbon tax,Under consideration since 2020,Jalisco,94
+Tax_BW,Botswana Carbon tax,National Carbon tax,Under consideration since 2022,Botswana,95
+UND_BN,Brunei Darussalam Undecided,National Undecided,Under consideration since 2021,Brunei Darussalam,96
+Tax_US_HI,Hawaii Carbon tax,Subnational - State/Province Carbon tax,Under consideration since 2021,Hawaii,97
+Tax_IN,Indonesia Carbon tax,National Carbon tax,Under consideration since 2021,Indonesia,98
+Tax_IL,Israel Carbon tax,National Carbon tax,Under consideration since 2021,Israel,99
+ETS_MY,Malaysia ETS,National ETS,Under consideration since 2021,Malaysia,100
+ETS_PK,Pakistan ETS,National ETS,Under consideration since 2021,Pakistan,101
+ETS_RU_Sakhalin,Sakhalin ETS,Subnational - State/Province ETS,Under development since 2021,Sakhalin,102
+Tax_MA,Morocco Carbon tax,National Carbon tax,Under consideration since 2022,Morocco,103
+ETS_GA,Gabon ETS,National ETS,Under consideration since 2022,Gabon,104
+ETS_NG,Nigeria ETS,National ETS,Under consideration since 2022,Nigeria,105
+ETS_EU2,EU ETS2,Regional ETS,Under development since 2023,EU27+,106
+ETS_US_New York State,New York State ETS,Subnational - State/Province ETS,Under development since 2023,New York State,107
+ETS_IN,India ETS,National ETS,Under development since 2024,India,108
+Tax_NZ,New Zealand Carbon tax,National Carbon tax,Under consideration since 2022,New Zealand,109
+Tax_US_HI,Hawaii Carbon tax,Subnational - State/Province Carbon tax,Under consideration since 2021,Hawaii,110
+Tax_BW,Botswana Carbon tax,National Carbon tax,Under consideration since 2022,Botswana,111
+Tax_CA_Manitoba,Manitoba Carbon tax,Subnational - State/Province Carbon tax,Under consideration since 2018,Manitoba,112
+Tax_MX_SLP,San Luis Potosí carbon tax,Subnational - State/Province Carbon tax,Under development since 2024,San Luis Potosí,113
+ETS_AR,Argentina  ETS,National ETS,Under consideration since 2024,Argentina ,114
+ETS_CA2,Canada ETS,National ETS,Under development since 2024,Canada,115
+ETS_US_Colorado,Colorado ETS,Subnational - State/Province ETS,Under development since 2024,Colorado,116
+Tax_MX_Colima,Colima Carbon tax,Subnational - State/Province Carbon tax,Under consideration since 2024,Colima,117
+ETS_US_Maryland,Maryland ETS,Subnational - State/Province ETS,Under consideration since 2024,Maryland,118
+UND_PH,Philippines Undecided,National Undecided,Under consideration since 2024,Philippines,119
+Tax_KE,Kenya Carbon tax,National Carbon tax,Under consideration since 2024,Kenya,120
+Tax_MR,Mauritania Carbon tax,National Carbon tax,Under consideration since 2024,Mauritania,121
+Tax_PY,Paraguay Carbon tax,National Carbon tax,Under consideration since 2024,Paraguay,122
+Tax_CA_PE,Prince Edward Island Carbon tax,Subnational - State/Province Carbon tax,"Implemented in 2019, Abolished in 2023",Prince Edward Island,123
+Tax_CA_NL,Newfoundland and Labrador carbon tax,Subnational - State/Province Carbon tax,"Implemented in 2019, Abolished in 2023",Newfoundland and Labrador,124
+Tax_CA_NB,New Brunswick carbon tax,Subnational - State/Province Carbon tax,"Implemented in 2020, Abolished in 2023",New Brunswick,125
+Tax_MX_BC,Baja California carbon tax,Subnational - State/Province Carbon tax,"Implemented in 2020, Abolished in 2021",Baja California,126
+Tax_MX_TA,Tamaulipas carbon tax,Subnational - State/Province Carbon tax,"Implemented in 2022, Abolished in 2023",Tamaulipas,127
+ETS_AU1,Australia CPM,National ETS,"Implemented in 2012, Abolished in 2014",Australia,128
+Tax_CA_Alberta,Alberta carbon tax,Subnational - State/Province Carbon tax,"Implemented in 2017, Abolished in 2019",Alberta,129
+ETS_CA_Ontario,Ontario CaT,Subnational - State/Province ETS,"Implemented in 2017, Abolished in 2018",Ontario,130

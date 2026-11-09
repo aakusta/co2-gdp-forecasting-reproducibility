@@ -1,0 +1,8 @@
+Python 3.11.16, miceforest 5.7.0, LightGBM 4.5.0, OMP_NUM_THREADS=2.
+Each regenerated CSV was parsed using the same pandas read_csv defaults as the forecast code and compared to the archived input with check_exact=True.
+analysis_panel_imputed_m1_1990_2023.csv: exact equality after reading with pandas, 2,004 rows × 15 columns.
+analysis_panel_imputed_m2_1990_2023.csv: exact equality after reading with pandas, 2,004 rows × 15 columns.
+analysis_panel_imputed_m3_1990_2023.csv: exact equality after reading with pandas, 2,004 rows × 15 columns.
+analysis_panel_imputed_m4_1990_2023.csv: exact equality after reading with pandas, 2,004 rows × 15 columns.
+analysis_panel_imputed_m5_1990_2023.csv: exact equality after reading with pandas, 2,004 rows × 15 columns.
+CSV byte hashes can differ because of decimal serialization. The archived inputs used by the forecast command are preserved.
